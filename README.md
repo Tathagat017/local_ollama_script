@@ -1,6 +1,7 @@
 # Local Ollama Script
 
 A Node.js application that demonstrates how to interact with Ollama's local LLM API using the codellama:7b model.
+![image](https://github.com/user-attachments/assets/a4821e72-3871-4af9-a6ff-60476693a09d)
 
 ## Prerequisites
 
@@ -67,24 +68,6 @@ The script demonstrates how to:
 3. Handle responses asynchronously
 4. Implement error handling
 
-## Customization
-
-To modify the prompt, edit the `prompt` variable in `index.js`:
-
-```javascript
-const prompt = "Your custom prompt here";
-```
-
-## Troubleshooting
-
-1. If you get connection errors, ensure:
-   - Ollama service is running
-   - The codellama:7b model is pulled
-   - Correct API endpoint is used
-
-2. If you get model errors, try:
-   ```bash
-   ollama pull codellama:7b
    ```
 
 ## License
